@@ -1,12 +1,15 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
      background-color: lightskyblue;
-     background-image: url(/img/pattern.png);
+     background-image: url(../img/pattern.png);
      height: 80px;
+     margin-bottom: 5px solid;
 
 }
 
