@@ -8,16 +8,19 @@
 header {
      background-color: lightskyblue;
      background-image: url(../img/pattern.png);
-     height: 80px;
+     height: 120px;
      margin-bottom: 5px solid;
+     position: relative;
 
 }
 
 #logo{
-    width: 120px;
+    width: 250px;
     height: auto;
-    bottom: 8px;
-    left: 16px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    
     
 }
 
@@ -31,6 +34,7 @@ header {
 
 table {
     margin: 1%;
+    border-spacing: 0;
 }
 
 th, td {
@@ -47,4 +51,44 @@ th {
 
 .bluetab {
     background-color: rgba(11, 216, 216, 0.556);
+}
+
+.endimg {
+    display: block;
+    padding-top: 1%;
+}
+
+h5 {
+    color: grey;
+}
+
+#data {
+    color: gray;
+}
+
+span {
+    background-color: yellow;
+}
+
+#endtext {
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+#booleaner {
+    color: blue;
+    background-color: transparent;
+}
+
+.container {
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.textimg {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: larger;
 }
