@@ -1,0 +1,19 @@
+
+* {
+    margin: 0;
+}
+
+header {
+     background-color: lightskyblue;
+     background-image: url(/img/pattern.png);
+     height: 80px;
+
+}
+
+#logo{
+    width: 120px;
+    height: auto;
+    bottom: 8px;
+    left: 16px;
+    
+}
