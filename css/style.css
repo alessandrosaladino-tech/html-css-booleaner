@@ -73,6 +73,7 @@ span {
 #endtext {
     margin-top: 2%;
     margin-bottom: 0%;
+    margin: 1%;
 }
 
 #booleaner {
@@ -81,14 +82,20 @@ span {
 }
 
 .container {
+    margin: 1%;
     position: relative;
   text-align: center;
   color: white;
 }
 
 .textimg {
+  margin: 1%;
   position: absolute;
   top: 20px;
   left: 10px;
   font-size: larger;
+}
+
+#pfinale {
+    margin: 1%;
 }
