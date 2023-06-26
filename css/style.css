@@ -28,3 +28,23 @@ header {
 #elenco {
     margin: 2%;
 }
+
+table {
+    margin: 1%;
+}
+
+th, td {
+    width: 3%;
+    font-size: smaller;
+   
+}
+
+th {
+  background-color: rgb(8, 161, 244);
+  color: white;
+  text-align: left;
+}
+
+.bluetab {
+    background-color: rgba(11, 216, 216, 0.556);
+}
